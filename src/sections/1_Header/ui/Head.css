@@ -1,0 +1,12 @@
+.background {
+    background: url('/pictures/BackgroundMountains.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Nunito Sans";
+    src: local("Nunito Sans"), url("/fonts/Nunito_Sans/NunitoSans-Black.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    font-style: normal;
+    src: local("Nunito Sans"), url("/fonts/Nunito_Sans/NunitoSans-Bold.ttf") format("ttf");
+}
+
+.display-none {
+    display: none;
+}
